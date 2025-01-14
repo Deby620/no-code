@@ -237,7 +237,8 @@
         attributes: { class: 'fa fa-table' },
         content: { type: 'tableau' },
     });
-    
+
+  //composant personnalisé footer
     editorRef?.current.Components.addType('footer', {
         model: {
             defaults: {
@@ -311,7 +312,7 @@
         content: { type: 'footer' },
     });
     
-
+//composant personnalisé barre de recherche
     editorRef?.current.Components.addType('searchbox', {
         model: {
             defaults: {
